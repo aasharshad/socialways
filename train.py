@@ -54,7 +54,7 @@ args = parser.parse_args()
 dataset_name = args.dataset
 model_name = args.model
 input_file = '../hotel-8-12.npz'
-model_file = '../trained_models/' + model_name + '-' + dataset_name + '.pt'
+model_file =  model_name + '-' + dataset_name + '.pt'
 
 # FIXME: ====== training hyper-parameters ======
 # Unrolled GAN
