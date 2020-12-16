@@ -21,7 +21,7 @@ parser.add_argument('--batch-size', '--b',
                     type=int, default=256, metavar='N',
                     help='input batch size for training (default: 256)')
 parser.add_argument('--epochs', '--e',
-                    type=int, default=1000, metavar='N',
+                    type=int, default=20000, metavar='N',
                     help='number of epochs to train (default: 1000)')
 parser.add_argument('--model', '--m',
                     default='socialWays',
@@ -32,10 +32,10 @@ parser.add_argument('--latent-dim', '--ld',
                     type=int, default=10, metavar='N',
                     help='dimension of latent space (default: 10)')
 parser.add_argument('--d-learning-rate', '--d-lr',
-                    type=float, default=1E-3, metavar='N',
+                    type=float, default=1E-4, metavar='N',
                     help='learning rate of discriminator (default: 1E-3)')
 parser.add_argument('--g-learning-rate', '--g-lr',
-                    type=float, default=1E-4, metavar='N',
+                    type=float, default=1E-3, metavar='N',
                     help='learning rate of generator (default: 1E-4)')
 parser.add_argument('--unrolling-steps', '--unroll',
                     type=int, default=1, metavar='N',
